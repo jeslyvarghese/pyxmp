@@ -11,7 +11,7 @@ with open("README.rst", "r") as f:
 
 setup(
     name = "pyxmp",
-    version = piexif.VERSION,
+    version = pyxmp.VERSION,
     author = "egghese",
     author_email = "justin@redatomize.com",
     description = "An xmp library purely written in python",
