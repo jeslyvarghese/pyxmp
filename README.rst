@@ -1,4 +1,4 @@
-Pyxmp
+PyXMP
 ======
 An XMP reader written in pure python
 
@@ -15,7 +15,7 @@ or 'pip'::
 
 or download .zip, extract it. Put 'pyxmp' directory into your environment.
 
-Why Choose Piexif
+Why Choose PyXMP
 -----------------
 
 - Pure Python. So, it runs everywhere where Python runs.
@@ -23,8 +23,14 @@ Why Choose Piexif
 
 How to Use
 ----------
+```python
+from pyxmp import XMP
 
-
+xmp_data = XMP(filepath="file_path", NS="https://namespace_url.org/1.0/")
+try:
+  value = xmp_data.NS.property
+except AttributeError:
+  pass
 Example
 -------
 
