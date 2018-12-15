@@ -21,23 +21,16 @@ Why Choose PyXMP
 - Pure Python. So, it runs everywhere where Python runs.
 - Documented. http://pyxmp.readthedocs.org/en/latest/
 
-How to Use
-----------
-
-```
-
-from pyxmp import XMP
-
-xmp_data = XMP(filepath="file_path", NS="https://namespace_url.org/1.0/")
-try:
-  value = xmp_data.NS.property
-except AttributeError:
-  pass
-  
-```
-
 Example
 -------
+
+.. code-block:: python
+    from pyxmp import XMP
+    xmp_data = XMP(filepath="file_path", NS="https://namespace_url.org/1.0/")
+    try:
+        value = xmp_data.NS.property
+    except AttributeError:
+        pass
 
 
 Environment
