@@ -31,6 +31,8 @@ try:
   value = xmp_data.NS.property
 except AttributeError:
   pass
+```
+
 Example
 -------
 
