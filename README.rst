@@ -23,7 +23,9 @@ Why Choose PyXMP
 
 How to Use
 ----------
+
 ```python
+
 from pyxmp import XMP
 
 xmp_data = XMP(filepath="file_path", NS="https://namespace_url.org/1.0/")
