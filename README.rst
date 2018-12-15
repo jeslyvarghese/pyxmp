@@ -24,7 +24,7 @@ Why Choose PyXMP
 How to Use
 ----------
 
-```python
+```
 
 from pyxmp import XMP
 
@@ -33,6 +33,7 @@ try:
   value = xmp_data.NS.property
 except AttributeError:
   pass
+  
 ```
 
 Example
